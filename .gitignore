@@ -1,30 +1,30 @@
-# Next.js
-.next/
-out/
-
 # Dependencies
 node_modules/
+/.pnp
+.pnp.js
 
-# Environment files
-.env
-.env.local
-.env.*.local
-
-# Build output
-dist/
+# Next.js build & dev outputs
+.next/
+.next*
+out/
 build/
+dist/
 
 # Logs
 npm-debug.log*
 yarn-debug.log*
+yarn-error.log*
 pnpm-debug.log*
 
-# OS files
+# Environment files
+.env
+.env*.local
+
+# Cache & Vercel
+.turbo/
+.vercel/
+*.tsbuildinfo
+
+# OS generated files
 .DS_Store
 Thumbs.db
-node_modules/
-.next/
-out/
-.env
-.env.local
-.env.*.local

@@ -3,7 +3,7 @@ export const resumeData = {
   role: "Robotics Software Engineer",
   contact: {
     phone: "+1 (857) 437-2422",
-    email: "katakamsaikumar9@gmail.com",
+    email: "saikatakam57@gmail.com",
     github: "https://github.com/katakam4601",
     linkedin: "https://www.linkedin.com/in/sai-kumar-katakam-821552209/",
     location: "United States (Open to Relocate)",
